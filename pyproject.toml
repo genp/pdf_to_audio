@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdf-to-audio"
+version = "0.1.0"
+description = "convert pdf or text to an mp3 that reads the input text"
+authors = ["Geneviève Patterson <genevieve@barderry.com>"]
+readme = "README.md"
+packages = [{include = "pdf_to_audio"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf2 = "3.0.1"
+pyttsx3 = "2.90"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
